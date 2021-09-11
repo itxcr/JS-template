@@ -1,0 +1,42 @@
+.back-img {
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(.6);
+}
+
+.next-btn {
+  width: 96px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  pointer-events: auto;
+  font-size: 14px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, .5);
+  color: #FFFFFF;
+  border-radius: 29px;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tip-txt {
+  font-size: 20px;
+  color: #FFFFFF;
+  position: absolute;
+  letter-spacing: 1px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.close-btn {
+  width: 27px;
+  height: 27px;
+  position: absolute;
+  left: 75%;
+  top: 26%;
+  transform: translate(-50%, -50%);
+}

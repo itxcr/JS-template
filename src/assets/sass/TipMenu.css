@@ -1,0 +1,86 @@
+#container .reset-btn, #container .tip-btn {
+  width: 2.3333333333rem;
+  height: 2.3333333333rem;
+  user-select: none;
+  cursor: pointer;
+  z-index: 1
+}
+
+#container .reset-btn {
+  position: absolute;
+  left: 84%;
+  top: 90%
+}
+
+#container .tip-btn {
+  position: absolute;
+  left: 84%;
+  top: 85%
+}
+
+#container .back-img {
+  width: 19.3333333333rem;
+  pointer-events: none;
+  position: absolute;
+  left: 50%;
+  top: 41.5%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  z-index: 1
+}
+
+#container .next-btn {
+  width: 6rem;
+  height: 2.5rem;
+  text-align: center;
+  line-height: 2.5rem;
+  pointer-events: auto;
+  font-size: 14px;
+  font-weight: 400;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+  border-radius: 3rem;
+  letter-spacing: 1px;
+  position: absolute;
+  left: 50%;
+  top: 71%;
+  cursor: pointer;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  z-index: 1
+}
+
+#container .tip-txt {
+  pointer-events: none;
+  font-size: 20px;
+  color: #fff;
+  position: absolute;
+  letter-spacing: 1px;
+  left: 50%;
+  top: 52%;
+  transform: translate(-50%, -50%);
+  user-select: none;
+  z-index: 1
+}
+
+#container .close-btn {
+  width: 1.6666666667rem;
+  height: 1.6666666667rem;
+  position: absolute;
+  left: 75%;
+  top: 26%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  user-select: none;
+  z-index: 1
+}
+
+#container .back-img-mask {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6) 86%);
+  position: absolute;
+  left: 0;
+  top: 0;
+  pointer-events: none
+}
